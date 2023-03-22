@@ -1,0 +1,35 @@
+.greetings {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+.greetings__container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.greetings__btn {
+    width: 350px;
+    height: 80px;
+    border: 3px solid #fff;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.greetings__main-fish {
+    background-image: url(../../images/mainfish.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 353px;
+    height: 232px;
+    object-fit: fill;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
